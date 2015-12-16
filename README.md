@@ -1,4 +1,5 @@
 # Hubot + Container
+MacOSX 上から Docker Machine で作成した Docker Host 環境を想定しています。
 
 ## Create new hubot project
 
@@ -17,7 +18,7 @@ docker-compose run --rm bot
 ## Slack integration
 Slack に通知する bot を hubot で作る/動かす手順。
 
-### `hubot-slack`アダプタをインストール
+### hubot-slack アダプタをインストール
 
 ```
 docker-compose run --rm bot npm install hubot-slack --save
